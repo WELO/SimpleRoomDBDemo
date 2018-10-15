@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <Button
+                android:id="@+id/btn_get_DBTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="get DBTable"/>
+        <Button
+                android:id="@+id/btn_get_one_of_DBTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="get One Of DBTable"/>
+        <Button
+                android:id="@+id/btn_add_one_to_DBTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="add One To DBtable"/>
+        <Button
+                android:id="@+id/btn_update_one_to_DBTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="update One To DBTable"/>
+        <Button
+                android:id="@+id/btn_delete_one_of_DBTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="delete One Of DBTable"/>
+        <Button
+                android:id="@+id/btn_get_Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="get Count"/>
+        <Button
+                android:id="@+id/btn_delete_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="delete All"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
